@@ -1,0 +1,60 @@
+
+body
+{
+max-width: 500px;
+}
+
+.A {
+	font-family: 'Lobster', cursive;
+	margin: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 150px;
+	height: 100px;
+	background-color: cyan;
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	border-radius: 20px;
+	
+}
+
+.B {
+	font-family: 'Pacifico', cursive;
+	-ms-transform: rotateX(180deg);
+	-webkit-transform: rotateX(180deg);
+	transform: rotateX(180deg);
+}
+
+.C {
+	font-family: 'Satisfy', cursive;
+	text-align: right;
+	text-shadow: 1px 1px;
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	
+}
+
+.D {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	text-shadow: 1px 1px;
+	width: 100px;
+	height: 100px;
+	background-color: cyan;
+	-webkit-animation-name: Party; 
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-iteration-count: infinite;
+    animation-name: Party;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+	
+}
+
+@keyframes Party {
+    0%   {background-color:red;}
+    25%  {background-color:yellow;}
+    50%  {background-color:blue;}
+    75%  {background-color:green;}
+    100% {background-color:red; ;}
