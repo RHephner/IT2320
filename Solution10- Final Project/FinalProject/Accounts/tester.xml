@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<account>
+  <username>tester</username>
+  <password>tester</password>
+  <emailadd>test@email.com</emailadd>
+  <GPA>3.6</GPA>
+  <Email>
+  </Email>
+</account>

@@ -1,0 +1,437 @@
+﻿.home 
+{ 
+    width: 520px;    
+    max-width: 1040px;
+	font-family: Calibri;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #009b9b;
+}
+	 
+.home header h1 
+{ 
+    font-family: Cambria;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+	color: #FFFFFF;
+}
+	
+.home header .legalPara 
+{ 
+    font-weight: normal;
+    font-style: italic;
+    font-family: Calibri;
+    font-size: 12px;
+    text-align: left;
+    margin: 20px 2%;
+	color: #FFFFFF;
+}
+
+.home main 
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.home footer 
+{ 
+     position: relative;
+     margin: 20px;
+	 color: #FFFFFF;
+}
+
+.home-page2 
+{
+    font-size: 13px;
+}
+
+.home header .h1-page2 
+{
+    font-size: 18px;
+	font-weight: bold;
+}	 
+
+
+
+.home main .page1
+ {
+     position: relative;
+     border: 2px double black;
+     border-radius: 15px;
+     background-color: #F5FFFA;
+}
+
+.home main .page2 
+{ 
+    display: none; 
+    position: relative;
+    top: 0; 
+    border: 2px double black;
+    border-radius: 15px;
+    background-color: #F5FFFA;
+}
+
+.home main .page1 .separator,
+.home main .page2 .separator 
+{
+    border-bottom: 2px solid black;
+    padding: 0;
+    height: 0;
+    margin: 1px;
+}
+
+.home main .page1 .loginGrid,
+.home main .page1 .newAcctGrid
+{
+    display: table;
+    padding-left:20px;
+}
+
+.home main .page1 .loginGrid .loginBox1 
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align:left;
+    width: 40%;
+    padding-top: 25px;
+    padding-left: 1%;
+}
+.home main .page1 .newAcctGrid .newAcctBox1 
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align:left;
+    width: 30%;
+    padding-top: 40px;
+    padding-left: 1%;
+}
+.home main .page1 .loginGrid .loginBox2 
+{
+    margin-left: 12px;
+    display: inline-block;
+    padding-left: 25px;
+    text-align:left;
+}
+.home main .page1 .newAcctGrid .newAcctBox2 
+{
+    margin-left: 20px;
+    display: inline-block;
+    padding: 20px 0px;
+    text-align: left;
+}
+
+.home main .page1 .loginGrid h2,
+.home main .page1 .newAcctGrid h2 
+{
+    display: none;
+}
+
+.home main .page1 .row 
+{
+     padding: 10px 0;
+}
+
+.home main .page1 .loginGrid .loginBox2 .msg,
+.home main .page1 .newAcctGrid .newAcctBox2 .msg,
+.home main .page2 .accountGrid .msg,
+.home main .page2 .addElementGrid .msg 
+{
+    display: none;  
+    color: red;
+    padding: 5px 0 0 5px;
+    font-weight: bold;  
+}
+
+.home main .page1 .loginGrid .loginBox2 .row .col1 
+{
+    width: 60px; 
+    display: inline-block;
+}
+.home main .page1 .loginGrid .loginBox2 .row .col2 
+{
+    display: inline-block;
+    width: 170px;
+    text-align: right;
+}
+
+.home main .page1 .newAcctGrid .newAcctBox2 .row .col1 
+{
+    width: 120px; 
+    display: inline-block;
+}
+.home main .page1 .newAcctGrid .newAcctBox2 .row .col2 
+{
+    display: inline-block;
+    width: 160px;
+}
+.home main .page1 .loginGrid .loginBox2 .row .col2 .textbox,
+.home main .page1 .newAcctGrid .newAcctBox2 .row .col2 .textbox 
+{
+    display: inline-block; 
+    background-color: white;
+    border: 1px solid black;
+    width: 160px;
+    padding: 10px;
+}
+.home main .page1 .loginGrid .loginBox2 .buttonRow,
+.home main .page1 .newAcctGrid .newAcctBox2 .buttonRow 
+{
+    padding-left: 10px;
+    text-align: right;
+    width: 100px;
+    height: 50px;
+}
+.home main .page1 .loginGrid   .loginBox2   .buttonRow .button, 
+.home main .page1 .newAcctGrid .newAcctBox2 .buttonRow .button 
+{
+    font-weight: bold;
+    font-family: "Calibri";
+    font-size: 12px;
+    display: inline-block;
+    margin: 10px 0 0 50px;
+    padding: 10px 20px;
+    background-color: #009b9b;
+    width: 125px;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+.home main .page1 .newAcctGrid .newAcctBox2 .buttonRow .button 
+{
+    margin: 10px 0 0 110px;
+}
+/*  Page 2  */
+.home main .page2 .accountGrid 
+{
+    padding: 20px 30px;
+    display: table;
+}
+.home main .page2 .addElementGrid 
+{
+    padding: 30px 80px;
+    display: table;
+}
+.home main .page2 .accountGrid .row 
+{
+ 
+}
+.home main .page2 .accountGrid .col1 
+{
+    display: inline-block;
+    padding: 15px;
+    width: 75px;
+    
+}
+.home main .page2 .accountGrid .row:first-child 
+{
+    font-weight: bold;
+}
+.home main .page2 .accountGrid .col2
+ {
+    display: inline-block;
+    padding: 10px;
+    width: 175px;
+    margin: 10px;
+}
+.home main .page2 .accountGrid .textbox 
+{
+      
+} 
+.home main .page2 .accountGrid .col3
+ {
+    padding: 10px;
+    width: 50px;
+    display:inline-block;
+}
+.home main .page2 .addElementGrid .row 
+{
+   
+}
+.home main .page2 .addElementGrid .col1 
+{
+    padding: 15px;
+    display: inline-block;
+    width: 75px;
+}
+.home main .page2 .addElementGrid .col2 
+{
+    padding: 10px;
+    width: 195px;
+    margin: 0 10px;
+    display: inline-block;
+}
+.home main .page2 .accountGrid .button,
+.home main .page2 .addElementGrid .buttonRow .button
+ {
+    font-weight: bold;
+    font-family: "Calibri";
+    font-size: 12px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #009b9b;
+    width: 50px;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+.home main .page2 .addElementGrid .buttonRow .button 
+{
+    margin: 10px 0 0 115px;
+    width: 175px;
+    display: inline-block;
+}
+/* Mobile Formatting less than 320px */
+@media only screen and (max-width: 320px) 
+{
+    .home 
+	{
+        display: block;
+        width: 300px;
+        padding-bottom: 2%;
+        margin: 5px;
+    }
+    .home header h1 
+	{
+        text-align: center;
+    }
+    .home header .h1-page2 
+	{
+        font-size: 18px;
+    }
+    .home header .stdParagraph 
+	{
+        text-align: center;
+    }
+    .home header .stdParagraph-page2 
+	{
+        font-size: 13px;
+    }
+    .home footer {
+        text-align: center;
+    }
+	
+    .home main .page1 .loginGrid,
+    .home main .page1 .newAcctGrid 
+	{
+        margin: 0 5px;
+        padding: 0;
+    }
+    .home main .page1 .loginGrid h2,
+    .home main .page1 .newAcctGrid h2 
+	{
+            display: block;
+            font-weight: bold;
+            font-family: Cambria;
+            font-size: 16px;
+            padding-top: 10px;
+            margin-top: 0;
+     }
+    .home main .page1 .loginGrid .loginBox1,
+    .home main .page1 .newAcctGrid .newAcctBox1 
+	{
+        display: none;
+    }
+    .home main .page1 .loginGrid .loginBox2
+	{
+        margin: 0;
+        padding: 0;
+        width: 98%;
+    }
+    .home main .page1 .newAcctGrid .newAcctBox2 
+	{
+        margin: 0;
+        padding: 0;
+        width: 98%;
+    }
+    .home main .page1 .loginGrid .loginBox2 .row,
+    .home main .page1 .newAcctGrid .newAcctBox2 .row 
+	{
+        text-align: left;
+        height: 35px;
+        padding-top: 5px;
+    }
+    .home main .page1 .loginGrid .loginBox2 .row .col1 
+	{
+        width: 50px;
+    }
+    .home main .page1 .newAcctGrid .newAcctBox2 .row .col1 
+	{
+        width: 110px;
+        border: none;
+    }
+    .home main .page1 .loginGrid .loginBox2 .row .col2,
+    .home main .page1 .newAcctGrid .newAcctBox2 .row .col2 
+	{
+        padding: 0 10px;
+        text-align: left;
+        display: inline-block;
+    }  
+    .home main .page1 .loginGrid .loginBox2 .row .col2 .textbox,
+    .home main .page1 .newAcctGrid .newAcctBox2 .row .col2 .textbox 
+	{
+        display: inline-block; 
+        padding-top: 5px;
+    }
+    .home main .page1 .loginGrid .loginBox2 .buttonRow,
+    .home main .page1 .newAcctGrid .newAcctBox2 .buttonRow 
+	{
+        width: 200px;
+        height: 50px;
+        text-align:right;
+        padding-left: 5px;
+    }
+    .home main .page1 .loginGrid .loginBox2   .buttonRow  .button, 
+    .home main .page1 .newAcctGrid .newAcctBox2 .buttonRow  .button 
+	{
+        width: 210px;
+        margin: 5px;
+    }
+    .home main .page2 
+	{
+        width: 300px; 
+    }
+    .home main .page2 .addElementGrid 
+	{
+        margin: 0 30px;
+        padding: 0 15px 0 0;
+    }    
+    .home main .page2 .row 
+	{
+        width: 240px;
+    } 
+    .home main .page2 .row .col1 
+	{ 
+        border: none;
+        font-size: 18px;  
+        width: 240px;
+        text-align: left;
+        padding: 15px 15px 0px 15px;
+        display: block; 
+    }
+    .home main .page2 .row .col2 
+	{  
+        width: 240px;
+        padding: 15px;
+        display: block; 
+    }
+    .home main .page2 .row .col3 
+	{ 
+        margin: 0px 10px; 
+        width: 210px; 
+        text-align: center; 
+        display: block;
+        padding: 15px;
+    }
+    .home main .page2 addElementGrid .row .col2 
+	{
+        padding-bottom: 0;
+    }
+    .home main .page2 .addElementGrid .buttonRow .button 
+	{
+        margin: 10px 0 10px 10px;
+        width: 208px;
+        padding: 15px;
+    } 
+} 
